@@ -1,0 +1,22 @@
+.flag {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(
+        to bottom,
+        red 0% 25%
+        blue 25% 75%
+        red 75% 100%
+    );
+    position: relative;
+}
+
+>circle{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
